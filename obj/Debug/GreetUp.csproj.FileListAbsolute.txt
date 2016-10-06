@@ -69,3 +69,7 @@ c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\bin\E
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\bin\EntityFramework.SqlServer.dll
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\bin\EntityFramework.xml
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\bin\EntityFramework.SqlServer.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\obj\Debug\GreetUp.Migrations.InitialCreate.resources
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\obj\Debug\GreetUp.csproj.GenerateResource.Cache
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\obj\Debug\GreetUp.Migrations.AddTitle.resources
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\obj\Debug\GreetUp.Migrations.NewController.resources

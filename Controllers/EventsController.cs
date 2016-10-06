@@ -21,7 +21,7 @@ namespace GreetUp.Controllers
         }
 
         // GET: Events/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(int? id)
         {
             if (id == null)
             {
@@ -46,7 +46,7 @@ namespace GreetUp.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Title,Location,Time,Description,RSVP")] Event @event)
+        public ActionResult Create([Bind(Include = "ID,Title,Location,Time,Description,RSVP")] Event @event)
         {
             if (ModelState.IsValid)
             {
@@ -59,7 +59,7 @@ namespace GreetUp.Controllers
         }
 
         // GET: Events/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult Edit(int? id)
         {
             if (id == null)
             {
@@ -78,7 +78,7 @@ namespace GreetUp.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "RSVP")] Event @event)
+        public ActionResult Edit([Bind(Include = "ID,Title,Location,Time,Description,RSVP")] Event @event)
         {
             if (ModelState.IsValid)
             {
@@ -89,9 +89,8 @@ namespace GreetUp.Controllers
             return View(@event);
         }
 
-
         // GET: Events/Delete/5
-        public ActionResult Delete(string id)
+        public ActionResult Delete(int? id)
         {
             if (id == null)
             {
@@ -108,7 +107,7 @@ namespace GreetUp.Controllers
         // POST: Events/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult DeleteConfirmed(int id)
         {
             Event @event = db.Events.Find(id);
             db.Events.Remove(@event);

@@ -1,6 +1,13 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:chartreuse;
+}
+h1, h2{
+    font-family:'Comic Sans MS';
+    font-weight:900;
+    color:darkmagenta;
+
 }
 
 /* Set padding to keep content from hitting the edges */
